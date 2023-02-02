@@ -38,6 +38,10 @@ body{
     background-image: url(kepek/hatter.jpg);
 }
 
+nav, aside, article, footer{
+    padding: 5px;
+}
+
 main{
     width: 80%;
     max-width: 1000px;
@@ -56,6 +60,7 @@ header{
 
 header h1{
     padding-top: 60px;
+    padding-bottom: 60px;
     text-align: center;
 }
 
@@ -68,6 +73,7 @@ nav{
 nav ul{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    padding: 0px;
 }
 
 nav li{
@@ -88,9 +94,6 @@ nav a{
     font-weight: bold;
 }
 
-article{
-    padding: 5px;
-}
 
 article h2{
     text-align: left;
@@ -112,6 +115,11 @@ article p{
 
 aside img{
     width: 100%;
+}
+
+footer{
+    color: white;
+    background-color: red;
 }
 
 
